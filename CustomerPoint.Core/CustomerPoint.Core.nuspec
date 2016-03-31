@@ -13,5 +13,10 @@
     <releaseNotes></releaseNotes>
     <copyright>Copyright Guildford Borough Council 2016</copyright>
     <language>en-GB</language>
+    <dependencies>
+      <dependency id="Microsoft.AspNet.WebApi.Client" />
+      <dependency id="Newtonsoft.Json" />
+      <dependency id="Serilog" />
+    </dependencies>
   </metadata>
 </package>
