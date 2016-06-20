@@ -59,6 +59,7 @@
     <Reference Include="System.Xml.Serialization" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\AdelanteResponse.cs" />
     <Compile Include="Models\Pingdom.cs" />
     <Compile Include="Models\Transaction.cs" />
     <Compile Include="Payments\Lookup.cs" />
