@@ -30,5 +30,13 @@ namespace CustomerPoint.Properties {
                 return ((global::System.Uri)(this["PaymentsServiceUri"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public global::System.Uri LookupServiceUri {
+            get {
+                return ((global::System.Uri)(this["LookupServiceUri"]));
+            }
+        }
     }
 }
