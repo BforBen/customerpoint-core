@@ -8,5 +8,8 @@
     <Setting Name="LookupServiceUri" Type="System.Uri" Scope="Application">
       <Value Profile="(Default)" />
     </Setting>
+    <Setting Name="AdelantePaymentsUri" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://payments.guildford.gov.uk/pay/</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

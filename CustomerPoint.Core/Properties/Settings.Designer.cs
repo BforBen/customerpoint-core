@@ -38,5 +38,14 @@ namespace CustomerPoint.Properties {
                 return ((global::System.Uri)(this["LookupServiceUri"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("https://payments.guildford.gov.uk/pay/")]
+        public string AdelantePaymentsUri {
+            get {
+                return ((string)(this["AdelantePaymentsUri"]));
+            }
+        }
     }
 }

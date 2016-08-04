@@ -1,5 +1,6 @@
 ﻿namespace CustomerPoint.Models
 {
+    [System.Obsolete("Use CustomerPoint.Payments.Adelante.PaymentResponse", false)]
     public class AdelanteResponse
     {
         public int? ErrorStatus { get; set; }
