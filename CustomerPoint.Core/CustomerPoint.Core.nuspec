@@ -14,8 +14,8 @@
     <copyright>Copyright Guildford Borough Council 2016</copyright>
     <language>en-GB</language>
     <dependencies>
-      <dependency id="GuildfordBoroughCouncil.Address" />
-      <dependency id="GuildfordBoroughCouncil.Address.Api.Client" />
+      <dependency id="GuildfordBoroughCouncil.Address" version="1.1.6" />
+      <dependency id="GuildfordBoroughCouncil.Address.Api.Client" version="1.0.1" />
       <dependency id="Microsoft.AspNet.WebApi.Client" />
       <dependency id="Newtonsoft.Json" />
       <dependency id="Serilog" />
